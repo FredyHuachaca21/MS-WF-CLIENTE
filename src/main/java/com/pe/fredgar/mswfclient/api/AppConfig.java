@@ -13,7 +13,7 @@ public class AppConfig {
 
     @Bean
     public WebClient webClient(){
-        return WebClient.create("baseUrl");
+        return WebClient.create(baseUrl);
     }
 
 }
